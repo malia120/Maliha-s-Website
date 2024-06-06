@@ -1,0 +1,18 @@
+Step By step what i have done to create this website.
+1) installed the react app. by doing npx create-react-app frontend
+2) I deleted the files and code i dont need
+3) created pages 
+4) created Home page
+    4a) imported react from the react library
+    4b) created a functional component named home
+    4c) exported Home component, to make it accessible everywhere
+5) i then updated my App.js page, by removing all the code
+    5a) i then imported react from react library
+    5b) i then did npm install react-router-dom, which has many functions, like display the web pages and allow users to nagivate through the pages
+    5c) created functional component called App, and the App component as default, making it accessible everywhere.
+    5d) imported the react-router-dom, especially Browser Router as Router, Routes and Route. This keeps UI in sync with the URL.
+    5e) i then imported the Home page by:
+        5ei) importing the home component by doing 'import home', and then located where i imported the component, in this case, "from './Pages/Home';"
+    5f) I then wrap the app in Router, which allows routing, and then have it be wrapped in routes
+    5g) i then define the actual route or path, where when the path is '/', which is the root path, the Home component is rendered. 
+6) i then updated the Home page, to ensure that home page is successfully rendered, by returning the heading "Home page".
