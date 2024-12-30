@@ -1,0 +1,54 @@
+:root {
+    --first-color: #d486b8;
+    --second-color: #f1b1c1;
+    --third-color: #a37ab4;
+    --forth-color: #b4d8e8;
+    --fifth-color: #abbcd6;
+}
+
+.lockscreen {
+    background: url('./Pictures/bg2.png') no-repeat center fixed;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lockscreen {
+    background: url('./Pictures/Desktop.png') no-repeat center fixed;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.child {
+    background-color: rgba(241, 177, 193, 0.6);
+    padding: 100px;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.child h1 {
+    margin-bottom: 80px;
+    font-size: 50px; 
+    color: white;
+}
+
+.child button {
+    background-color: var(--second-color); 
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin: 100px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.child button:hover {
+    background-color: var(--first-color);
+}
